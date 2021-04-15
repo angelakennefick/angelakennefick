@@ -1,0 +1,44 @@
+{
+
+    "particles":{
+        "number":{
+            "value": 900
+        },
+        "color":{
+            "value": "#fff"
+        },
+        "shape":{
+            "type": "triangle"
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true,
+            "anim":{
+                "enable":true
+            }
+        },
+        "line_linked": {
+            "enable": true,
+            "distance": 60,
+            "color": "#FFF0BE",
+            "opacity": 0.03,
+            "width": 1
+            
+          },
+        "move": {
+        "enable": true,
+        "speed": 0.1,
+        "direction": "none",
+        "random": false,
+        "straight": true,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": true,
+          "rotateX": 600,
+          "rotateY": 1200
+             }
+         }
+
+    }
+}
