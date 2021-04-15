@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    color: inherit;
+   text-decoration: none; 
+}
+
+p span {
+    font-size: 1.5em;
+    
+
+}
+
+p {
+  max-width: 80%; 
+  color: hsl(45, 30%, 89%);
+  white-space:normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  
+  /* transition: 0.3s; */
+  text-shadow: 1px 1px 0 rgb(133, 97, 97), 1px 2px 0 rgb(133, 97, 97), 1px 3px 0 rgb(133, 97, 97),
+    1px 5px 10px #979487;
+    
+}
+
+#readMe {
+ 
+    z-index: 999;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   max-width: 80%;
+   text-align: center;
+   
+}
+
+#particles-js {
+    z-index: 1;
+    display: flex;
+    background: rgb(202, 175, 175);
+    max-width: 100%;
+  height: auto;
+}
+
+
+
+
